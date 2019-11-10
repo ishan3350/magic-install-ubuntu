@@ -8,7 +8,7 @@ os.system(myCmd)
 myCmd = 'apt-get dist-upgrade -y'
 os.system(myCmd)
 
-myCmd = 'apt-get install python3-pip'
+myCmd = 'apt-get install python3-pip -y'
 os.system(myCmd)
 
 myCmd = 'apt-get install apache2 -y'
